@@ -14,7 +14,7 @@ var session = require('express-session');
 var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
 // Notification
-var agenda = require('agenda')({ db: { address: 'localhost:27017/test' } });
+var agenda = require('agenda')({ db: { address: 'mongodb://showtrackr:showtrackr@ds041208.mongolab.com:41208/showtrackrdemo' } });
 var sugar = require('sugar');
 var nodemailer = require('nodemailer');
 
